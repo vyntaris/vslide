@@ -226,7 +226,6 @@ pub(super) fn about(app: &mut SlideApp, ui: &mut Ui) {
             if task(ui, Icon::Help, "Credits", "Credits", "The people and models who built VSlide.", true) {
                 let _ = app.run("app.about", json!({}));
             }
-            ui.hyperlink_to("Join our community on Discord", vslide_engine::links::DISCORD);
             ui.hyperlink_to("Source on GitHub", vslide_engine::links::GITHUB);
         });
         ui.add_space(40.0);

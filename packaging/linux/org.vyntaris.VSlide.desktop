@@ -15,4 +15,4 @@ StartupNotify=true
 StartupWMClass=org.vyntaris.VSlide
 Categories=Office;Presentation;
 Keywords=presentation;slides;slideshow;pptx;deck;prezentacija;slajd;
-MimeType=application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.ms-powerpoint;application/vnd.storyteller.deckcraft+zip;application/vnd.vyntaris.vslide+zip;
+MimeType=application/x-vslide;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.ms-powerpoint;application/vnd.storyteller.deckcraft+zip;application/vnd.vyntaris.vslide+zip;

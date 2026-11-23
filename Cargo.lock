@@ -1075,14 +1075,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "craft-mcp-server"
-version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=bc186ca719958fcce3b6ee24794277eabed14609#bc186ca719958fcce3b6ee24794277eabed14609"
-dependencies = [
- "serde_json",
-]
-
-[[package]]
 name = "craft-media"
 version = "0.1.0"
 source = "git+https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee9b030844c852939095b1da0d0656a890"
@@ -1211,26 +1203,6 @@ dependencies = [
  "rav1e",
  "rayon",
  "thiserror 2.0.21",
-]
-
-[[package]]
-name = "craft-web-api"
-version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=fd5e2feff6ea25bed371a99cc732b3968d621505#fd5e2feff6ea25bed371a99cc732b3968d621505"
-dependencies = [
- "js-sys",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "craft-web-host"
-version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=fd5e2feff6ea25bed371a99cc732b3968d621505#fd5e2feff6ea25bed371a99cc732b3968d621505"
-dependencies = [
- "wasm-bindgen",
- "web-sys",
 ]
 
 [[package]]
@@ -5634,16 +5606,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "vslide-cli"
-version = "0.19.0"
-dependencies = [
- "serde_json",
- "vslide-engine",
- "vslide-mcp",
- "zip 3.0.0",
-]
-
-[[package]]
 name = "vslide-color"
 version = "0.19.0"
 dependencies = [
@@ -5710,17 +5672,6 @@ dependencies = [
  "craft-drawingml",
  "kurbo",
  "serde",
-]
-
-[[package]]
-name = "vslide-mcp"
-version = "0.19.0"
-dependencies = [
- "craft-mcp-server",
- "log",
- "serde_json",
- "vslide-engine",
- "vslide-render",
 ]
 
 [[package]]
@@ -5861,25 +5812,6 @@ dependencies = [
  "vyntaris-gtk-theme",
  "vyntaris-office-crypt",
  "web-time",
-]
-
-[[package]]
-name = "vslide-web"
-version = "0.19.0"
-dependencies = [
- "craft-web-api",
- "craft-web-host",
- "eframe",
- "egui",
- "js-sys",
- "log",
- "rfd",
- "serde_json",
- "vslide-engine",
- "vslide-ui-egui",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
 ]
 
 [[package]]
@@ -6916,13 +6848,6 @@ name = "xmp-writer"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9440ea3e5aeabb0ac63af70daf835274065238cdd0cec83418f417eae38bacee"
-
-[[package]]
-name = "xtask"
-version = "0.19.0"
-dependencies = [
- "serde_json",
-]
 
 [[package]]
 name = "y4m"

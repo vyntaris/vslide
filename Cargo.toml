@@ -1,7 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["crates/*", "apps/*", "xtask", "shared/*"]
-default-members = ["crates/*", "apps/vslide", "apps/vslide-cli"]
+members = ["crates/*", "apps/*", "shared/*"]
 
 [workspace.package]
 version = "0.19.0"
@@ -48,7 +47,6 @@ vslide-ppt = { path = "crates/ppt" }
 vslide-format = { path = "crates/format" }
 vslide-anim = { path = "crates/anim" }
 vslide-engine = { path = "crates/engine" }
-vslide-mcp = { path = "crates/mcp" }
 vslide-ui-egui = { path = "crates/ui-egui" }
 vslide-media = { path = "crates/media" }
 

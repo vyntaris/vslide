@@ -99,7 +99,7 @@ mod tests {
     fn a_password_protected_presentation_is_named_as_such() {
         let locked = build(&["EncryptionInfo", "EncryptedPackage"]);
         let err = vslide_engine::cmd::file::open_presentation("Locked.pptx", &locked).unwrap_err().to_string();
-        assert!(err.contains("Locked.pptx is password-protected"), "{err}");
+        assert!(err.contains("Locked.pptx") && err.contains("protected with a password"), "{err}");
         let ppt = build(&["PowerPoint Document", "Current User"]);
         let err = vslide_engine::cmd::file::open_presentation("Old.ppt", &ppt).unwrap_err().to_string();
         assert!(!err.contains("password"), "{err}");
