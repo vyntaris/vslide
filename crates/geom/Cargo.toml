@@ -1,0 +1,14 @@
+[package]
+name = "vslide-geom"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VSlide geometry: units (EMU/pt), transforms, preset shape generators, adjust handles, hit testing"
+
+[lints]
+workspace = true
+
+[dependencies]
+craft-drawingml = { workspace = true }
+kurbo = { workspace = true }
+serde = { workspace = true }
